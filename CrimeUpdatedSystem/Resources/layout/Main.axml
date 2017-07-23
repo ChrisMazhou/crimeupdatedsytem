@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hello"
+        style="@style/button_text"
+        android:layout_marginBottom="0.0dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dp"
+        android:id="@+id/linearLayout1">
+        <DigitalClock
+            android:layout_width="85.2dp"
+            android:layout_height="match_parent"
+            android:id="@+id/digitalClock1" />
+        <CalendarView
+            android:layout_width="152.1dp"
+            android:layout_height="44.6dp"
+            android:id="@+id/calendarView1"
+            android:layout_marginBottom="2.3dp" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25.2dp"
+        android:id="@+id/space1"
+        android:layout_marginBottom="20.6dp" />
+    <Button
+        android:text="Report Anonymously"
+        android:layout_width="match_parent"
+        android:layout_height="68.5dp"
+        android:id="@+id/button1"
+        style="@style/button_text"
+        android:background="@drawable/red_button" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2" />
+    <Button
+        android:text="Personal Details"
+        android:layout_width="match_parent"
+        android:layout_height="68.5dp"
+        android:id="@+id/button2"
+        style="@style/button_text"
+        android:background="@drawable/red_button"
+        android:layout_marginLeft="0.0dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space3" />
+    <Button
+        android:text="Help"
+        android:layout_width="match_parent"
+        android:layout_height="68.5dp"
+        android:id="@+id/button3"
+        style="@style/button_text"
+        android:background="@drawable/red_button" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space4" />
+    <Button
+        android:text="About"
+        android:layout_width="match_parent"
+        android:layout_height="68.5dp"
+        android:id="@+id/button4"
+        style="@style/button_text"
+        android:background="@drawable/red_button" />
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:text="Report Anonymously"
+        android:layout_width="match_parent"
+        android:layout_height="50.5dp"
+        android:id="@+id/button1"
+        style="@style/button_text" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13.8dp"
+        android:id="@+id/space1" />
+    <Button
+        android:text="Get Address"
+        android:layout_width="225.1dp"
+        android:layout_height="52.9dp"
+        android:id="@+id/get_address_button"
+        style="@style/button_text" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13.8dp"
+        android:id="@+id/space2" />
+    <TextView
+        android:text="Location"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="37.6dp"
+        android:id="@+id/location_text" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13.8dp"
+        android:id="@+id/space3" />
+    <TextView
+        android:text="Address"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="74.3dp"
+        android:id="@+id/address_text"
+        android:layout_marginBottom="0.0dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13.8dp"
+        android:id="@+id/space4" />
+    <TextView
+        android:text="Select Type Of Crime"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="53.9dp"
+        android:id="@+id/crimeList" />
+    <Button
+        android:text="Report"
+        android:layout_width="191.4dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/reportCrime"
+        style="@style/button_text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/failedTxt"
+        android:visibility="gone"
+        android:text="Crime Report was Unsuccessful.Try again later!"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

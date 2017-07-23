@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:text="About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        style="@style/button_text" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22.9dp"
+        android:id="@+id/space1" />
+    <TextView
+        android:text="Vision: Create a safe and secure environment for all the people in south Africa"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="42.2dp"
+        android:id="@+id/textView1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18.3dp"
+        android:id="@+id/space2" />
+    <TextView
+        android:text="Mision: Investigate any crimes that threaten the safety and security of any community. Ensure offenders are brought to justice.Participate in efforts to address the causes of crimes."
+        android:layout_width="match_parent"
+        android:layout_height="74.9dp"
+        android:id="@+id/textView2" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20.6dp"
+        android:id="@+id/space3" />
+    <TextView
+        android:text="©This Application is designed by  KEFILWE MKHWANAZI."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space4" />
+    <TextView
+        android:text="Address: Hammanskraal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6.9dp"
+        android:id="@+id/space5" />
+    <TextView
+        android:text="Contact: 082 474 7431 ©"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4.6dp"
+        android:id="@+id/space6" />
+    <TextView
+        android:text="Creativity can keep our life save."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+</LinearLayout>
